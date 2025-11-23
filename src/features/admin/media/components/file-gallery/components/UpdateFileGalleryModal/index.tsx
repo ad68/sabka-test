@@ -1,5 +1,6 @@
+'use client'
 import FormField from "@/components/kit/FormField";
-import {Download} from "lucide-react";
+import { Download } from "lucide-react";
 import { Controller } from "react-hook-form";
 import CustomTextBox from "@/components/kit/CustomTextBox";
 import CustomButton from "@/components/kit/CustomButton";
@@ -62,8 +63,8 @@ export default function Index({ reloadTable, onClose, selectedRow }: { reloadTab
                 name="fileFiles"
                 control={control}
                 render={({ field }) => (
-                    <CustomInputFile  multiple={true}
-                                    value={field.value} onChange={field.onChange} />
+                    <CustomInputFile multiple={true}
+                        value={field.value} onChange={field.onChange} />
                 )}
             />
         </FormField>

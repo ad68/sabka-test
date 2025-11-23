@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import Tables from "./components/Tables";
 import Summary from './components/Summary'
