@@ -1,0 +1,46 @@
+.myRmdp-input:focus {
+  border: 2px solid #60a5fa !important;
+  box-shadow: 0 10px 15px -3px #bfdbfe;
+}
+
+.myRmdp-input {
+  font-family: iranYekan;
+  border-radius: 6px;
+  border: 1px solid #eeeeee;
+  min-width: 100%;
+  min-height: 48px;
+  margin-top: 0;
+  outline: none !important;
+  padding-left: 14px;
+  padding-right: 14px;
+  font-size: 12px;
+}
+.myRmdp-input-tiny {
+  font-family: iranYekan;
+  border-radius: 6px;
+  border: 1px solid #eeeeee;
+  min-width: 100%;
+  min-height: 38px;
+  margin-top: 0;
+  outline: none !important;
+  padding-left: 14px;
+  padding-right: 14px;
+  font-size: 12px;
+
+  @apply focus:shadow-blue-200 focus:border-blue-400;
+}
+.myRmdp-input.error {
+  border-color: #e14856;
+}
+.popup-filter .ui-datepicker {
+  width: 142px !important ;
+}
+.popup-filter .popup-filter-right .ui-datepicker {
+  border-radius: 0 8px 8px 0;
+}
+.popup-filter .popup-filter-left .ui-datepicker {
+  border-radius: 8px 0 0 8px;
+}
+.rmdp-container {
+  width: 100%;
+}

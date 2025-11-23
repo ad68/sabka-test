@@ -1,0 +1,45 @@
+.player-container {
+    background-color: #111; /* بک‌گراند مشکی */
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.rhap_container {
+    background-color: transparent;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.rhap_play-pause-button {
+    color: #35663a; /* قرمز Netflix-style */
+}
+
+.rhap_progress-bar {
+    background-color: #222; /* بک‌گراند موج */
+}
+
+.rhap_progress-indicator {
+    background-color: #35663a; /* دایره روی موج */
+    box-shadow: 0 0 5px #35663a;
+}
+
+.rhap_time {
+    color: #35663a;
+    font-size: 0.8rem;
+}
+
+.rhap_volume-bar {
+    background-color: #333;
+}
+
+.rhap_volume-indicator {
+    background-color: #35663a;
+}
+.rhap_volume-bar {
+    background-color: #e9aa1e;
+}
+.rhap_time.rhap_total-time {
+    display: none !important;
+}
