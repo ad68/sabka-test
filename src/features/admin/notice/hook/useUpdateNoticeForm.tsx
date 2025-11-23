@@ -1,3 +1,4 @@
+'use client'
 import { z } from "zod";
 import { validationMessages } from "@/constants/validationMessage";
 import { useForm } from "react-hook-form";
