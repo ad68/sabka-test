@@ -1,3 +1,4 @@
+'use client'
 import FormField from "@/components/kit/FormField";
 import { Download } from "lucide-react";
 import { Controller } from "react-hook-form";
@@ -7,7 +8,7 @@ import CustomButton from "@/components/kit/CustomButton";
 import useUpdateNoticeModal from "@/features/admin/notice/hook/useUpdateNoticeForm";
 
 export default function Index({ reloadTable, onClose, selectedRow }: { reloadTable: () => void, onClose: () => void, selectedRow: any }) {
-    const { control, errors, onSubmit, handleSubmit, updatePending, } = useUpdateNoticeModal({ reloadTable: reloadTable, onClose: onClose, selectedRow: selectedRow, articleType:'NOTICE' })
+    const { control, errors, onSubmit, handleSubmit, updatePending, } = useUpdateNoticeModal({ reloadTable: reloadTable, onClose: onClose, selectedRow: selectedRow, articleType: 'NOTICE' })
     return <form className="grid grid-cols-1 gap-4 xl:grid-cols-2"
         onSubmit={handleSubmit(onSubmit)}>
 
