@@ -1,3 +1,4 @@
+'use client'
 import React, { forwardRef, ReactNode } from "react";
 import './style.css'
 import { cn } from "@/lib/utils";

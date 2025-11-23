@@ -1,4 +1,5 @@
 // components/ui/CustomTextBox.tsx
+'use client'
 import { forwardRef, InputHTMLAttributes } from "react";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";

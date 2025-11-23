@@ -1,3 +1,4 @@
+'use client'
 import CustomButton from "@/components/kit/CustomButton";
 import CustomModal from "@/components/kit/CustomModal";
 import { Download, Eye } from "lucide-react";
