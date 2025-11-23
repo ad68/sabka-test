@@ -70,20 +70,20 @@ export default function Index({
         <Image
           src={Close}
           onClick={onClose}
-          unoptimized
+
           alt=""
           className="w-[20px] cursor-pointer"
         />
         <Image
           onClick={() => window.open(activeSrc)}
           src={Download}
-          unoptimized
+
           alt=""
           className="w-[20px] cursor-pointer"
         />
         <Image
           onClick={toggleAutoplay}
-          unoptimized
+
           src={isAutoPlay ? Pause : Play}
           alt=""
           className="w-[20px] cursor-pointer"
@@ -120,7 +120,7 @@ export default function Index({
                 <section className="swiper-zoom-container">
                   <Image
                     onClick={() => goToSlide(index)}
-                    unoptimized
+
                     key={index}
                     src={item.imageUrl}
                     width={600}
@@ -170,7 +170,7 @@ export default function Index({
                 onClick={() => goToSlide(index)}
                 key={index}
                 src={item.imageUrl}
-                unoptimized
+
                 width={130}
                 height={130}
                 className={`cursor-pointer ${index === activeSlide ? "opacity-1" : "opacity-50"} rounded-sm`}

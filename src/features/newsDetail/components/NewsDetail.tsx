@@ -45,7 +45,7 @@ export default function Index({ data }: { data: NewsDetail }) {
                         <h2 className="text-center xl:text-right text-base xl:text-lg px-[20px] xl:px-0">
                             {data?.persianTitle1}
                         </h2>
-                        {data.documentFiles.length <= 1 && <Image unoptimized src={data.fileUrl} className="w-full xl:float-left xl:mr-10 rounded-lg xl:w-[500px] h-auto" width={400} height={300} alt="" />}
+                        {data.documentFiles.length <= 1 && <Image src={data.fileUrl} className="w-full xl:float-left xl:mr-10 rounded-lg xl:w-[500px] h-auto" width={400} height={300} alt="" />}
                         {data.documentFiles.length > 1 && <div className="w-full xl:float-left xl:mr-10 rounded-lg xl:w-[500px] h-auto"><CustomGallery slides={generateSlides(data.documentFiles)} /></div>}
                         <div className="text-justify mt-[27px]">
                             <h1 className="font-bold text-[#284D2C] text-xl xl:text-[32px] px-[20px] xl:px-0 text-center xl:text-right leading-tight">{data?.persianTitle2}</h1>

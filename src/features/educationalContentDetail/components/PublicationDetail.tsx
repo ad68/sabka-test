@@ -65,7 +65,7 @@ export default function Index({ data }: { data: any }) {
                         </a>
                     </h3>}
                 </div>
-                <Image unoptimized src={data.coverPictureUrl} className="w-full order-1 xl:w-[400px] flex-1 xl:mr-10 rounded-lg  h-auto" width={400} height={300} alt="" />
+                <Image src={data.coverPictureUrl} className="w-full order-1 xl:w-[400px] flex-1 xl:mr-10 rounded-lg  h-auto" width={400} height={300} alt="" />
             </article>
 
 

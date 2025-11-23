@@ -119,7 +119,7 @@ export default function Index({
                     onClick={() => goToSlide(index)}
                     key={index}
                     src={item.imageUrl}
-                    unoptimized
+
                     width={600}
                     height={150}
                     className="swSlide w-[600px]"
@@ -167,7 +167,7 @@ export default function Index({
                 onClick={() => goToSlide(index)}
                 key={index}
                 src={item.imageUrl}
-                unoptimized
+
                 width={130}
                 height={130}
                 className={`cursor-pointer thumb ${index === activeSlide ? "opacity-1" : "opacity-50"} rounded-sm`}

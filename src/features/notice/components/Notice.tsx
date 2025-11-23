@@ -29,7 +29,7 @@ export default function Index() {
                         <Link href={`/notice/${item.id}/${decodeURIComponent(item.persianTitle2)}`} key={index} className="bg-white relative  text-[#284D2C] hover:shadow-xl transition-all duration-300 rounded-[10px] block  mt-[26px] px-[20px] py-[18px] w-full">
                             <div className="flex flex-col xl:flex-row gap-4 items-center">
                                 {/*   <div className="w-[150px] h-[150px] border flex justify-center items-center rounded-md font-bold">بدون عکس</div> */}
-                                <Image unoptimized src={item.fileUrl} className="float-left rounded-md xl:w-[150px] h-auto" width={400} height={300} alt="" />
+                                <Image src={item.fileUrl} className="float-left rounded-md xl:w-[150px] h-auto" width={400} height={300} alt="" />
                                 <div>
                                     <p className="text-[14px]">{item.persianTitle1}</p>
                                     <p className="text-[24px] font-semibold"> {item.persianTitle2}</p>

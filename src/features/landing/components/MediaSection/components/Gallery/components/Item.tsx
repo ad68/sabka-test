@@ -18,7 +18,7 @@ export default function Index({ title, id, imgUrl, date }: NewsCardProp) {
                             <p className='font-bold text-xs block w-full'>{title}</p>
                         </section>
                         <section className='relative w-[151px] mx-auto h-[100px] bg-cover' style={{ backgroundImage: imgUrl }}>
-                            <Image unoptimized src={imgUrl} alt={title} className="mt-[16px]" fill />
+                            <Image src={imgUrl} alt={title} className="mt-[16px]" fill />
                             <div className='absolute left-[-2px] top-0 border-white border-2 w-[30px] rounded-br-lg h-[30px] p-2 flex justify-center items-center rounded-md bg-[#35663A] text-white group-hover:bg-[#E9AA1E]  transition-all duration-500 cursor-pointer'>
                                 <ArrowRTLIcon />
                             </div>
@@ -41,7 +41,7 @@ export default function Index({ title, id, imgUrl, date }: NewsCardProp) {
                             </div>
                         </section>
                         <section className='relative w-[90%] mx-auto h-[240px] bg-cover' style={{ backgroundImage: imgUrl }}>
-                            <Image unoptimized src={imgUrl} alt={title} fill />
+                            <Image src={imgUrl} alt={title} fill />
                         </section>
                     </section>
                 </Link>

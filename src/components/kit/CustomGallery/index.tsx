@@ -43,7 +43,7 @@ export default function CustomGallery({ slides }: any) {
         )}
         <Image
           src={slides[activeSlide].imageUrl}
-          unoptimized
+
           width={800}
           height={800}
           onClick={() => setLightBox(true)}
@@ -69,7 +69,7 @@ export default function CustomGallery({ slides }: any) {
               onClick={() => setActiveSlide(index)}
               className={`cursor-pointer rounded-md border p-1 ${index === activeSlide ? "border-red" : ""}`}
               src={item.imageUrl}
-              unoptimized
+
               width={90}
               height={90}
               alt=""

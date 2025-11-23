@@ -67,7 +67,7 @@ export default function Index({ data }: { data: PublicationDetail }) {
                         </a>
                     </h3>}
                 </div>
-                <Image unoptimized src={data.fileUrl} className="w-full order-1 xl:w-[400px] flex-1 xl:mr-10 rounded-lg  h-auto" width={400} height={300} alt="" />
+                <Image src={data.fileUrl} className="w-full order-1 xl:w-[400px] flex-1 xl:mr-10 rounded-lg  h-auto" width={400} height={300} alt="" />
             </article>
 
 

@@ -34,7 +34,7 @@ export default function Index() {
                     <div className="flex gap-4 items-center">
                         <GripHorizontal className="text-slate-500" />
                         <div className="w-[30px] flex justify-center items-center">{index + 1}</div>
-                        <Image unoptimized width={800} height={800} className="h-[80px] w-auto rounded-md" src={item.sliderFileUrl} alt="" />
+                        <Image width={800} height={800} className="h-[80px] w-auto rounded-md" src={item.sliderFileUrl} alt="" />
                         <div className=" flex justify-center items-center">{item.persianTitle}</div>
                     </div>
                     <div>

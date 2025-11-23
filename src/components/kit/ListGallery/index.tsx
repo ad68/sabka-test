@@ -39,7 +39,7 @@ export default function ListGallery({ slides }: any) {
               onClick={() => { setActiveSlide(index); setLightBox(true); }}
               className={`cursor-pointer rounded-md border-[2px] border-primary w-full p-1 ${index === activeSlide ? "border-red" : ""}`}
               src={item.imageUrl}
-              unoptimized
+
               width={200}
               height={200}
               alt=""
