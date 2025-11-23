@@ -42,7 +42,7 @@ export default function Index({ title, id, imgUrl, date }: NewsCardProp) {
 
                         </section>
                         <section className='relative w-[90%] mx-auto h-[240px] bg-cover' style={{ backgroundImage: imgUrl }}>
-                            <Image unoptimized src={imgUrl} alt={title} fill />
+                            <Image src={imgUrl} alt={title} fill />
                         </section>
                     </section>
                 </Link>
